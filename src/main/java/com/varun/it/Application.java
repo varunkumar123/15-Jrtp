@@ -25,19 +25,19 @@ public class Application {
    EmployeeRepo bean = ctxt.getBean(EmployeeRepo.class);
 
      
-/*   Employee findByEmpName = bean.findByEmpName("kumar");
+  Employee findByEmpName = bean.findByEmpName("kumar");
  
-   System.out.println(findByEmpName);*/
+   System.out.println(findByEmpName);
   
-   Employee findByEmpId = bean.findByempId(103);
+   /*Employee findByEmpId = bean.findByempId(103);
      
-    System.out.println(findByEmpId);
+    System.out.println(findByEmpId);*/
      
-  /* List<Employee> empSal = bean.findByEmpSal(20000.00);
+ /* List<Employee> empSal = bean.findByEmpSal(20000.00);
    
      
-   System.out.println(empSal);*/
-     
+   System.out.println(empSal);
+     */
 /*	 Employee entity = new Employee();
 	
 	entity.setEmpId(103);
