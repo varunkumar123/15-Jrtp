@@ -15,6 +15,6 @@ public interface EmployeeRepo extends CrudRepository<Employee, Serializable> {
 	
 	  public Employee findByempId(Integer num);
 	
-	// public List<Employee> findByEmpSal(Double sal);
+	 public List<Employee> findByEmpSal(Double sal);
 
 }
